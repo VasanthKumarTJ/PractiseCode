@@ -1,3 +1,8 @@
+
+"""
+The below code generates all subsequences of the array [3, 1, 2].
+The subsequences are printed one by one.
+"""
 def subsequence(arr, n, i, sq):
     if i >= n:
         print(sq)
@@ -13,3 +18,5 @@ arr = [3,1,2]
 n = 3
 sq = []
 subsequence(arr, n, 0, sq)
+
+
